@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pro People Services | Recruitment & Talent Solutions</title>
+
+<meta name="description"
+content="Pro People Services provides professional recruitment, talent acquisition and workforce solutions. Discover our specialist recruitment services for employers and candidates.">
+
+<meta name="robots" content="index, follow">
+
+<meta name="theme-color" content="#101d32">
+
+<link rel="canonical" href="https://www.pro-people-services.co.uk/">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #172238;
+    background: #ffffff;
+    line-height: 1.7;
+}
+
+/* HEADER */
+
+header {
+    background: #101d32;
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #c6a46a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #c6a46a;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 550px;
+    background:
+    linear-gradient(
+        rgba(16,29,50,0.91),
+        rgba(16,29,50,0.91)
+    ),
+    linear-gradient(135deg,#203c60,#101d32);
+
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 100px 10%;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 30px;
+    color: #dce2eb;
+}
+
+.button {
+    display: inline-block;
+    background: #c6a46a;
+    color: #101d32;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 90px 10%;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #101d32;
+}
+
+section p {
+    max-width: 850px;
+    margin-bottom: 20px;
+}
+
+.section-intro {
+    font-size: 18px;
+    color: #586579;
+}
+
+.light {
+    background: #f4f6f9;
+}
+
+.dark {
+    background: #101d32;
+    color: white;
+}
+
+.dark h2 {
+    color: white;
+}
+
+/* CARDS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    border: 1px solid #e5e8ed;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+}
+
+.card h3 {
+    color: #101d32;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #586579;
+}
+
+/* FOOTER */
+
+footer {
+    background: #0b1525;
+    color: #dce2eb;
+    padding: 55px 10%;
+}
+
+footer h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #c6a46a;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid #334055;
+    padding-top: 20px;
+    margin-top: 35px;
+    font-size: 13px;
+}
+
+/* CLOSURE OVERLAY */
+
+.closure-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+
+    background: rgba(8,17,32,0.94);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px;
+    overflow-y: auto;
+}
+
+.closure-box {
+    background: white;
+    width: 100%;
+    max-width: 650px;
+    padding: 55px 45px;
+    text-align: center;
+    border-radius: 6px;
+    border-top: 6px solid #c6a46a;
+
+    box-shadow: 0 20px 70px rgba(0,0,0,0.35);
+}
+
+.closure-logo {
+    color: #101d32;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.closure-logo span {
+    color: #b18d51;
+}
+
+.closure-label {
+    display: inline-block;
+    background: #f3eee4;
+    color: #866532;
+    padding: 7px 17px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.closure-box h2 {
+    font-size: 30px;
+    color: #101d32;
+    margin-bottom: 25px;
+}
+
+.closure-box p {
+    font-size: 16px;
+    color: #4b586c;
+    line-height: 1.9;
+    margin-bottom: 22px;
+}
+
+.closure-email {
+    display: inline-block;
+    color: #101d32;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #c6a46a;
+    padding-bottom: 5px;
+    overflow-wrap: anywhere;
+}
+
+.closure-footer {
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 1px solid #e5e8ed;
+    font-size: 12px;
+    color: #7b8492;
+}
+
+/* MOBILE */
+
+@media(max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 65px 7%;
+    }
+
+    .closure-box {
+        padding: 40px 25px;
+    }
+
+    .closure-box h2 {
+        font-size: 25px;
+    }
+
+    .closure-email {
+        font-size: 14px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- WEBSITE HEADER -->
+
+<header>
+
+<div class="logo">
+PRO <span>PEOPLE</span> SERVICES
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#employers">Employers</a>
+<a href="#candidates">Candidates</a>
+<a href="#specialisms">Specialisms</a>
+<a href="#vacancies">Vacancies</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<div class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>
+Connecting Exceptional People
+With Exceptional Opportunities.
+</h1>
+
+<p>
+Specialist recruitment and talent solutions
+for ambitious organisations and professionals
+across the United Kingdom.
+</p>
+
+<a href="#employers" class="button">
+Explore Our Services
+</a>
+
+</div>
+
+</div>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>Recruitment Built Around People.</h2>
+
+<p class="section-intro">
+A professional, considered approach to recruitment
+and workforce solutions.
+</p>
+
+<p>
+At Pro People Services, our approach centres on
+understanding the needs of organisations and
+the ambitions of individuals.
+</p>
+
+<p>
+We believe effective recruitment requires more
+than matching a CV to a job description.
+It requires an understanding of people,
+organisational culture, capability and long-term objectives.
+</p>
+
+<p>
+Our services are designed to support employers
+and professionals through a consultative,
+relationship-led recruitment approach.
+</p>
+
+</section>
+
+
+<!-- EMPLOYERS -->
+
+<section id="employers" class="light">
+
+<h2>Recruitment Solutions for Employers.</h2>
+
+<p class="section-intro">
+Helping organisations identify the right talent
+for their business.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Permanent Recruitment</h3>
+<p>
+Supporting organisations with permanent hiring
+requirements through targeted candidate sourcing
+and selection.
+</p>
+</div>
+
+<div class="card">
+<h3>Executive Search</h3>
+<p>
+A considered approach to identifying
+experienced leaders and senior professionals.
+</p>
+</div>
+
+<div class="card">
+<h3>Talent Acquisition</h3>
+<p>
+Supporting workforce planning, recruitment
+campaigns and specialist hiring requirements.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CANDIDATES -->
+
+<section id="candidates">
+
+<h2>Your Career. Our Priority.</h2>
+
+<p class="section-intro">
+Supporting professionals in identifying
+their next career opportunity.
+</p>
+
+<p>
+We recognise that career decisions are significant.
+Our candidate-focused approach is designed
+to provide professional guidance,
+clear communication and a personalised experience.
+</p>
+
+<p>
+Whether exploring new opportunities
+or considering the next stage of your career,
+our recruitment services are designed
+around individual aspirations and experience.
+</p>
+
+</section>
+
+
+<!-- SPECIALISMS -->
+
+<section id="specialisms" class="light">
+
+<h2>Our Recruitment Specialisms.</h2>
+
+<p class="section-intro">
+Professional recruitment across a range
+of business functions and sectors.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Human Resources</h3>
+<p>
+HR professionals, people operations,
+talent acquisition and senior HR leadership.
+</p>
+</div>
+
+<div class="card">
+<h3>Business & Operations</h3>
+<p>
+Operational management, business improvement,
+project management and commercial leadership.
+</p>
+</div>
+
+<div class="card">
+<h3>Finance & Professional Services</h3>
+<p>
+Finance, administration, business support
+and specialist professional roles.
+</p>
+</div>
+
+<div class="card">
+<h3>Sales & Commercial</h3>
+<p>
+Business development, account management,
+partnerships and commercial management.
+</p>
+</div>
+
+<div class="card">
+<h3>Executive & Leadership</h3>
+<p>
+Senior management, executive appointments
+and strategic leadership positions.
+</p>
+</div>
+
+<div class="card">
+<h3>Education & Public Services</h3>
+<p>
+Professional, operational and leadership
+appointments within education
+and public service organisations.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- VACANCIES -->
+
+<section id="vacancies">
+
+<h2>Current Opportunities.</h2>
+
+<p class="section-intro">
+Explore career opportunities through
+our recruitment services.
+</p>
+
+<p>
+Our direct recruitment services are
+currently closed.
+</p>
+
+<p>
+For enquiries regarding live vacancies
+managed through our umbrella services,
+please contact our administration team.
+</p>
+
+<a href="mailto:admin@pro-people-services.co.uk"
+class="button">
+Contact Our Team
+</a>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="dark">
+
+<h2>Contact Pro People Services.</h2>
+
+<p>
+For general enquiries, recruitment-related
+correspondence or enquiries regarding
+existing vacancies, please contact:
+</p>
+
+<p>
+<strong>Email:</strong>
+<a href="mailto:admin@pro-people-services.co.uk"
+style="color:#c6a46a;">
+admin@pro-people-services.co.uk
+</a>
+</p>
+
+<p>
+Please note that our direct recruitment
+services are currently closed.
+</p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>PRO PEOPLE SERVICES</h3>
+
+<p>
+Professional Recruitment & Talent Solutions
+</p>
+
+<p>
+CPR Ltd trading as Pro People Services.
+</p>
+
+<p>
+Email:
+<a href="mailto:admin@pro-people-services.co.uk">
+admin@pro-people-services.co.uk
+</a>
+</p>
+
+<div class="footer-bottom">
+
+<p>
+© <span id="year"></span>
+CPR Ltd T/A Pro People Services.
+All rights reserved.
+</p>
+
+</div>
+
+</footer>
+
+
+<!-- NON-DISMISSIBLE CLOSURE NOTICE -->
+
+<div class="closure-overlay"
+role="dialog"
+aria-modal="true"
+aria-labelledby="closure-title">
+
+<div class="closure-box">
+
+<div class="closure-logo">
+PRO <span>PEOPLE</span> SERVICES
+</div>
+
+<div class="closure-label">
+SERVICE ANNOUNCEMENT
+</div>
+
+<h2 id="closure-title">
+Temporary Closure of Services
+</h2>
+
+<p>
+CPR Ltd, trading as Pro People Services,
+is currently closed for recruitment services.
+</p>
+
+<p>
+For enquiries relating to live positions
+managed under our umbrella services,
+or for any other enquiries,
+please contact our administration team.
+</p>
+
+<a class="closure-email"
+href="mailto:admin@pro-people-services.co.uk">
+admin@pro-people-services.co.uk
+</a>
+
+<div class="closure-footer">
+Thank you for your understanding.
+</div>
+
+</div>
+
+</div>
+
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
